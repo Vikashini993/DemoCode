@@ -24,6 +24,9 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP 8440P\\eclipse-work
 	public static void dropdown(WebElement w, String l) {
 		Select st = new Select(w);
 		st.selectByVisibleText(l);
+		
+		System.out.printl("Hai");
+		System.out.println("kite");
 
 	}
 	
